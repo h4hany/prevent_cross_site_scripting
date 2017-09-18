@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f78fd0f-f440-44fd-a370-c25230122663" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.rspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/console" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/setup" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/prevent_cross_site_scripting.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/prevent_cross_site_scripting/version.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prevent_cross_site_scripting.gemspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/prevent_cross_site_scripting_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/prevent_cross_site_scripting/version.rb" afterPath="$PROJECT_DIR$/lib/prevent_cross_site_scripting/version.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prevent_cross_site_scripting.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prevent_cross_site_scripting.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/prevent_cross_site_scripting.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
@@ -60,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="version.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/prevent_cross_site_scripting/version.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
@@ -194,12 +180,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505657857159</updated>
       <workItem from="1505657858668" duration="1191000" />
-      <workItem from="1505738304446" duration="787000" />
+      <workItem from="1505738304446" duration="1320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1978000" />
+    <option name="totallyTimeSpent" value="2511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="170" y="57" width="1368" height="780" extended-state="6" />
@@ -370,18 +356,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/prevent_cross_site_scripting/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/prevent_cross_site_scripting.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/prevent_cross_site_scripting/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>
