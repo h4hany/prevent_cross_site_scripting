@@ -20,8 +20,16 @@ Or install it yourself as:
     $ gem install prevent_cross_site_scripting
 
 ## Usage
+    in your model
+    
+	extend PreventCrossSiteScripting 
+	
+	cross_site_scripting_validation :first_name , :middle_name 
+	
+	or you can put custom msg
+	cross_site_scripting_validation :first_name , :middle_name , msg: 'do not  put html'
 
-TODO: Write usage instructions here
+
 
 ## Development
 
