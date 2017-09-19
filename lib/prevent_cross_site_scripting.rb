@@ -5,7 +5,7 @@ module PreventCrossSiteScripting
   def cross_site_scripting_validation(*attributes)
     validate do
       attributes.each do |attribute|
-        self.errors[attribute] << "html is puted" if (attribute != sanitize(attribute))
+        self.errors[attribute] << "html is puted" if (attribute != Nokogiri::HTML(attribute).text)
       end
     end
   end
